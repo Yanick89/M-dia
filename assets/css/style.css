@@ -1,0 +1,106 @@
+/*reservé à la police*/
+
+
+
+body
+{
+	font-family: 'Michroma', sans-serif, 'Montserrat Subrayada', sans-serif;
+	margin: 0;
+	padding: 0;
+	background:url("casque.jpg");
+	background-repeat: no-repeat;
+
+}	
+
+main
+{
+
+}
+
+/*element de header*/
+header
+{
+	margin: 0;
+	padding: 0;
+	background: url("ben.jpg");
+	background-repeat: no-repeat;
+	height: 300px;
+	background-size: cover;
+	background-position:center;
+}
+
+nav
+{	
+	margin: 0;
+	padding: 0;
+}
+nav ul 
+{
+	display: flex;
+	justify-content: flex-end;
+}
+nav li 
+{
+	list-style-type: none;
+	text-decoration: none;
+	margin: 15px;
+	padding: 5px;
+	border:2px solid black;	
+}
+h1
+{
+	font-size: 4em; 
+	color: black;
+	position: relative;	left: 800px;
+}
+
+/*element du corps*/
+h3
+{
+	color: #fff;
+	font-size: 2em;
+	margin: 10px auto;
+	position: relative;
+	left: 50px;
+}
+
+ .audio1, .audio2, .audio3
+{
+	display: flex;
+	flex-direction: column;
+	margin: 5px;
+	
+}
+
+.contenaire
+{
+	display: flex;
+	margin: 10px auto;
+	height: 300px;
+	width: 800px;
+	padding: 5px;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+	background: white;
+}
+.bloc
+{
+	
+	margin: 5px auto;
+	padding: 3px;
+	width: 40%;
+	height: 250px;
+}
+.bloc1 img
+{
+	height: 250px;
+}
+.bloc2 img
+{
+	height: 250px;
+}
+.bloc img
+{
+	height: 250px;
+}
+
